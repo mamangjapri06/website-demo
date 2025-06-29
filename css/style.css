@@ -99,7 +99,7 @@ body {
   bottom: 0;
   background: linear-gradient(
     0deg,
-    rgb(0, 0, 0) 8%,
+    rgb(255, 254, 254) 8%,
     rgba(255, 255, 255, 0) 50%
   );
 }
@@ -134,7 +134,7 @@ body {
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   background-color: #ff0000;
   border-radius: 0.5rem;
@@ -222,23 +222,31 @@ body {
   margin-top: 1rem auto 1rem;
 }
 
+.menu-card-img {
+  height: 25rem;
+  width: auto;
+}
+
 /* Contact Section */
+
 .contact .row {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
   /*  background-color: #111111; */
 }
 
-.contact .row .map {
+/* .contact .row .map { 
   flex: 1 1 45rem;
   width: 100%;
   object-fit: cover;
-}
+}*/
 
 .contact .row form {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
   text-align: center;
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
 .contact .row form .input-group {
@@ -260,11 +268,11 @@ body {
 }
 
 .contact .row form .btn {
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 3rem;
   display: inline-block;
   padding: 1rem 3rem;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   color: #ffffff;
   background-color: #f80000;
   cursor: pointer;
@@ -351,7 +359,10 @@ body {
   .contact .row {
     flex-wrap: wrap;
   }
-
+  .contact .row form {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
   .contact .row .map {
     height: 30rem;
   }
