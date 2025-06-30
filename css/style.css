@@ -250,7 +250,7 @@ body {
 }
 
 .contact .row form .input-group {
-  color: #f80000;
+  color: #ff0000;
   display: flex;
   align-items: center;
   margin-top: 2rem;
@@ -278,6 +278,44 @@ body {
   cursor: pointer;
 }
 
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #f80000;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: #000000;
+}
+
+footer .links {
+  margin-bottom: 1rem;
+}
+
+footer .links a {
+  color: #f80000;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 1rem;
+}
+
+footer .credit a {
+  color: #f80000;
+  font-weight: bold;
+}
 /* Media Queries */
 
 /* Laptop */
